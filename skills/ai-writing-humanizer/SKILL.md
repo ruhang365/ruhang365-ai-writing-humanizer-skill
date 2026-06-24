@@ -21,12 +21,14 @@ AI may organize, diagnose, compress, rewrite, and run final checks. Do not inven
 
 1. Identify or infer the five inputs: format, author intent, target reader, tone boundary, and material source. If important inputs are missing, state the gap and proceed narrowly rather than fabricating. Read `references/input-contract.md` for detailed checks.
 2. Diagnose before rewriting. Classify AI flavor by material gaps, slippery judgment, mechanical structure, overreaching reader assumptions, floating language, and visible formatting tells. For long, sensitive, or high-visibility drafts, read `references/detection-rubric.md`.
+   For detailed pattern checks, use `references/pattern-catalog.md`. It absorbs the useful generic Humanizer checks, but applies them through Chinese publishing context.
 3. Preserve the non-negotiable claim and facts. If the stance is unclear, say the assumption before rewriting.
 4. Delete or merge correct-but-empty sentences before polishing. Prefer removing filler over decorating it.
 5. Replace abstract language with concrete actions, scenes, constraints, examples, tradeoffs, or decision criteria.
 6. If the user provides prior writing samples or asks for "像我", calibrate voice before rewriting. Read `references/voice-and-memory.md`.
 7. Adapt to the requested platform only when needed. Read `references/platforms.md` for platform handling and `references/formatting.md` for visible formatting issues.
-8. Output a publishable draft, then run a final anti-AI pass: "Where does this still obviously feel like AI?" Fix only the residual issues. Read `references/rewrite-workflow.md` for the full sequence.
+8. Before rewriting aggressively, check `references/false-positives.md` so you do not erase valid professional, technical, or platform-native writing.
+9. Output a publishable draft, then run a final anti-AI pass: "Where does this still obviously feel like AI?" Fix only the residual issues. Read `references/rewrite-workflow.md` and `references/final-audit-loop.md` for the full sequence.
 
 ## Standard Output
 
@@ -60,3 +62,19 @@ Keep diagnosis concise. The final draft should be usable without the prompt cont
 - Do not make every judgment uncertain. Real authors can have clear positions.
 - If the draft has little AI flavor, say so and avoid over-editing.
 - Keep compliance boundaries: do not promise guaranteed income, traffic, offers, transformation, conversion, medical/legal/financial outcomes, or unsupported certainty.
+
+## Audit Contract
+
+When this skill is used inside an automated publishing workflow, produce or update an audit record compatible with `references/audit-contract.md`.
+
+Minimum audit fields:
+
+- `sourceSkill: "ruhang365-ai-writing-humanizer"`
+- `humanized: true`
+- `detectedBuckets`
+- `rewritesApplied`
+- `preservedClaims`
+- `factsNotInvented: true`
+- `finalAntiAiPass`
+- `finalDecision.status: "passed"`
+- `finalDecision.publishable: true`

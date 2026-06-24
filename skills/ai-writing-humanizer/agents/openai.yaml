@@ -1,6 +1,6 @@
 interface:
   display_name: "去 AI 味写作"
-  short_description: "检测 AI 味并改成有材料、判断和作者声音的中文稿"
+  short_description: "入行365中文去 AI 味主 Skill：保留材料、判断、声音和平台意图"
   default_prompt: "Use $ai-writing-humanizer 帮我先检测这篇中文初稿的 AI 味，再保留核心观点改成可发布版本。"
 
 policy:

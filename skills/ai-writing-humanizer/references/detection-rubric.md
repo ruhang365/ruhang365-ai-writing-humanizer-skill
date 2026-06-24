@@ -2,6 +2,8 @@
 
 Use this for long drafts, high-stakes public copy, or when the user asks for a detailed AI-flavor audit.
 
+For detailed pattern examples, also use `pattern-catalog.md`. For false-positive protection, use `false-positives.md`.
+
 ## Six Buckets
 
 ### 1. Material Gaps
@@ -51,3 +53,5 @@ Use this for long drafts, high-stakes public copy, or when the user asks for a d
 ## Judgment Rule
 
 Do not mark a pattern as wrong just because it appears. Mark it when it harms the current format, author intent, target reader, or credibility.
+
+Look for clusters. One clean sentence is not evidence. A pile of vague authority, mirrored paragraphs, abstract benefits, and customer-service endings is evidence.

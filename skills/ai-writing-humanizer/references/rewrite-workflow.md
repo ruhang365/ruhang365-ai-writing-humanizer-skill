@@ -12,6 +12,7 @@ Use this when the user wants a complete rewrite, not just diagnosis.
 6. **Voice pass**: keep the author's useful rhythm, attitude, and recurring phrases. Avoid upgrading all language into a generic professional voice.
 7. **Platform pass**: adapt only when the destination is known.
 8. **Final anti-AI pass**: ask "Where does this still obviously feel like AI?" and fix only residual problems.
+9. **Audit contract**: when the rewrite enters a publishing workflow, record the result using `audit-contract.md`.
 
 ## Rewrite Priorities
 
@@ -29,6 +30,8 @@ Use this when the user wants a complete rewrite, not just diagnosis.
 - Are all paragraphs similar length and shape?
 - Did the rewrite erase the author's original attitude?
 - Did it add details the user did not provide?
+- Did it remove a useful rough edge and replace it with generic professionalism?
+- Did the platform version become less native after the rewrite?
 
 ## When Not To Rewrite
 

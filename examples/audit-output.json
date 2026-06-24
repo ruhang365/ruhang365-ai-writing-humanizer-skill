@@ -1,0 +1,70 @@
+{
+  "schema": "ruhang365.ai-writing-humanizer.audit.v1",
+  "contentKey": "example-ai-tool-upgrade",
+  "humanized": true,
+  "sourceSkill": "ruhang365-ai-writing-humanizer",
+  "skillVersion": "v3.1.0",
+  "checkedAt": "2026-06-24T12:00:00+08:00",
+  "inputContract": {
+    "format": "social_platform_versions",
+    "authorIntent": "explain why AI tool upgrades do not automatically improve operator capability",
+    "targetReader": "content and product operators using AI tools",
+    "toneBoundary": "direct, practical, no fake personal story",
+    "materialSource": "user-provided draft only"
+  },
+  "detectedBuckets": [
+    {
+      "bucket": "material_gaps",
+      "severity": "medium",
+      "findings": [
+        "The original draft used broad benefits such as efficiency and lower creation barrier without concrete operator actions."
+      ]
+    },
+    {
+      "bucket": "judgment_slippage",
+      "severity": "medium",
+      "findings": [
+        "The original claim said operators should learn new tools but did not separate useful adoption from shallow tool-chasing."
+      ]
+    },
+    {
+      "bucket": "platform_mismatch",
+      "severity": "medium",
+      "findings": [
+        "The same generic paragraph could not work well across Xiaohongshu, X, and Zhihu."
+      ]
+    }
+  ],
+  "rewritesApplied": [
+    "Replaced broad AI-upgrade framing with operator-specific decisions.",
+    "Created separate Xiaohongshu, X, and Zhihu versions with different rhythm and structure.",
+    "Kept X output in Chinese because the user did not request English."
+  ],
+  "preservedClaims": [
+    "AI tools can improve production efficiency.",
+    "Operators still need to learn and adapt.",
+    "Competitive advantage comes from how people use the tools, not the tool list itself."
+  ],
+  "factsNotInvented": true,
+  "platformAdaptation": {
+    "platforms": ["xiaohongshu", "x", "zhihu"],
+    "notes": [
+      "X version is compact and opinion-led.",
+      "Xiaohongshu version is saveable and checklist-based.",
+      "Zhihu version explains the boundary and reasoning."
+    ]
+  },
+  "finalAntiAiPass": {
+    "residualIssues": [],
+    "fixesApplied": [
+      "Removed generic technology-development opening.",
+      "Removed vague final encouragement."
+    ],
+    "status": "passed"
+  },
+  "finalDecision": {
+    "status": "passed",
+    "publishable": true,
+    "reason": "The rewrite preserves the user's claim, adds platform-native structure, avoids invented facts, and passes the final anti-AI check."
+  }
+}
