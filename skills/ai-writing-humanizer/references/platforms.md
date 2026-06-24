@@ -1,45 +1,54 @@
 # Platform Reference
 
-Use this only when the user asks for platform adaptation.
+Use this only when the user names a publishing platform or asks for platform adaptation.
 
 ## WeChat Public Account
 
-- Lead with a relatable problem or sharp judgment, then build a complete argument.
-- Keep section headings clear but not mechanically parallel.
-- Prefer examples, scenes, and personal observations over slogan-style copy.
-- End with one useful action or reflection, not a hard-sell conclusion.
+- Lead with a real problem, sharp judgment, or concrete scene.
+- Build a complete argument; do not rely on listicle rhythm alone.
+- Use headings that add information, not mechanically parallel labels.
+- Keep examples, tradeoffs, and author judgment visible.
+- End with one useful action or reflection, not a salesy recap.
 
 ## Xiaohongshu
 
-- Open with the pain point fast.
-- Use shorter paragraphs, concrete scenarios, and visible takeaways.
-- Keep the tone useful and lived-in; avoid exaggerated guarantees and fake intimacy.
-- Add checklist-style actions when appropriate.
+- Open quickly with the pain point or scenario.
+- Use shorter paragraphs and visible takeaways.
+- Make steps concrete enough to screenshot or save.
+- Avoid exaggerated intimacy, guaranteed results, and fake diary tone.
+- Keep hashtags and labels useful, not decorative.
 
 ## Zhihu
 
-- Make the core judgment explicit early.
+- Put the core judgment early.
 - Show reasoning, constraints, counterexamples, and boundaries.
-- Avoid pure emotion or unsupported experience claims.
-- Keep the structure logical, but allow natural transitions.
+- Avoid unsupported experience claims and pure emotional venting.
+- Let the structure be logical, but avoid textbook transitions.
 
 ## X / Twitter
 
-- Compress to one clear stance.
+- Compress to one clear stance per post.
 - Use sharper sentences and fewer qualifiers.
-- One post should carry one idea. Threads can expand with examples or steps.
-- Avoid generic listicles unless each point contains a real judgment.
+- Threads can expand through examples, objections, or steps.
+- Avoid generic numbered lists unless every point contains a real judgment.
 
-## Short Video Script
+## Short-Video Script
 
-- Start with a situation or contradiction that can be said aloud.
-- Use spoken rhythm, short sentences, and concrete examples.
-- Mark visual or action beats only if useful.
-- Keep the ending as a clear takeaway or next action.
+- Start with a situation, contradiction, or spoken judgment.
+- Use spoken rhythm and action beats when they help delivery.
+- Avoid dense abstract nouns that are hard to say aloud.
+- End with a clear takeaway or next action.
 
-## Long-Form Article
+## Long-Form Article / Newsletter
 
-- Use a strong thesis, then sections that each add new value.
-- Keep the author's experience and judgment visible.
+- Use a thesis and sections that each add new value.
+- Keep the author's experience, judgment, and boundaries visible.
 - Remove filler intros and recap-only endings.
 - Make the final version readable without needing the prompt context.
+
+## Formal Report
+
+- Keep claims bounded and source-sensitive.
+- Preserve definitions, caveats, and decision criteria.
+- Remove AI flavor through precision, not casual tone.
+- Do not add anecdotes unless the user supplied them.

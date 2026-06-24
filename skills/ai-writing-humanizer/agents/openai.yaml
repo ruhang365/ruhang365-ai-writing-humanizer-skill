@@ -1,7 +1,7 @@
 interface:
   display_name: "去 AI 味写作"
-  short_description: "把 AI 初稿改成更有判断和对象感的中文内容"
-  default_prompt: "Use $ai-writing-humanizer 帮我检测这篇中文初稿的 AI 味，并改成更有判断和对象感的发布稿。"
+  short_description: "检测 AI 味并改成有材料、判断和作者声音的中文稿"
+  default_prompt: "Use $ai-writing-humanizer 帮我先检测这篇中文初稿的 AI 味，再保留核心观点改成可发布版本。"
 
 policy:
   allow_implicit_invocation: true
