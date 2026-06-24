@@ -51,6 +51,8 @@ skills/ai-writing-humanizer/
 安装到本机 Codex：
 
 ```bash
+git clone https://github.com/fzy2012/ruhang365-ai-writing-humanizer-skill.git
+cd ruhang365-ai-writing-humanizer-skill
 mkdir -p ~/.codex/skills
 cp -R skills/ai-writing-humanizer ~/.codex/skills/
 ```
